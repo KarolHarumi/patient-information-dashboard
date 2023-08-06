@@ -5,8 +5,8 @@ Building a Basic Patient Information Dashboard with a 3D Visualizer
 ## ✨ Features
 
 - 👤 Display Basic Patient Information
-- 🔎 3D Point Cloud Visualization
-- 🔄 Refresh Content
+- 🔎 3D Point Cloud Visualization (Alpha)
+- 🔄 Refresh Content (Soon)
 - 📱 Responsive
 
 
