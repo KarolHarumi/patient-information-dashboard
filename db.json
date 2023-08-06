@@ -3,7 +3,7 @@
         { 
             "id": 1, 
             "name": "Patient 1", 
-            "age": "typicode", 
+            "age": "32", 
             "gender": "Female", 
             "videoUploadStatus": 1, 
             "scoliosisPredictionStatus": 1, 
@@ -12,7 +12,7 @@
         { 
             "id": 2, 
             "name": "Patient 2", 
-            "age": "typicode", 
+            "age": "56", 
             "gender": "Male", 
             "videoUploadStatus": 1, 
             "scoliosisPredictionStatus": 1, 
