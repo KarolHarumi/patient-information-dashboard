@@ -1,12 +1,13 @@
 "use client";
 
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import Image from 'next/image'
-import { PatientInfo } from '@/components/patientInfo/patientInfo';
+import { PatientInfo } from '@/components/patientInfo';
 import { QueryClient, QueryClientProvider } from 'react-query'
+import { ModalScreen } from '@/components/modalScreen';
 
 const queryClient = new QueryClient();
 
@@ -31,6 +32,9 @@ function classNames(...classes: any) {
 }
 
 export default function Example() {
+  const [visible, setVisible] = useState(false);
+  const [patient, setPatient] = useState({id: "", name: "", age: "", gender: "", videoUploadStatus: 0, scoliosisPredictionStatus: 0, pointCloudData: ""});
+
   return (
     <QueryClientProvider client={queryClient}>
       <div className="min-h-full">
@@ -206,7 +210,8 @@ export default function Example() {
         </header>
         <main>
           <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 px-5">
-            <PatientInfo />
+            <PatientInfo setVisible={setVisible} setPatient={setPatient} />
+            <ModalScreen patient={patient} visible={visible} setVisible={setVisible} />
           </div>
         </main>
       </div>

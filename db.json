@@ -10,7 +10,7 @@
             "pointCloudData": "" 
         },
         { 
-            "id": "456rty", 
+            "id": "486rty", 
             "name": "Patient 2", 
             "age": "56", 
             "gender": "Male", 
@@ -37,7 +37,7 @@
             "pointCloudData": "" 
         },
         { 
-            "id": "456rty", 
+            "id": "456hty", 
             "name": "Patient 5", 
             "age": "65", 
             "gender": "Male", 
