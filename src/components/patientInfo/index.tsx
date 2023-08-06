@@ -21,7 +21,7 @@ export function PatientInfo({setVisible, setPatient}: IPatientInfo) {
     }
 
     return (
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {data && data.map((patient) => (
           <div key={patient.id} className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <svg className="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 18">
