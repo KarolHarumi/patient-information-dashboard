@@ -1,0 +1,22 @@
+{
+    "patients": [
+        { 
+            "id": 1, 
+            "name": "Patient 1", 
+            "age": "typicode", 
+            "gender": "Female", 
+            "videoUploadStatus": 1, 
+            "scoliosisPredictionStatus": 1, 
+            "pointCloudData": "" 
+        },
+        { 
+            "id": 2, 
+            "name": "Patient 2", 
+            "age": "typicode", 
+            "gender": "Male", 
+            "videoUploadStatus": 1, 
+            "scoliosisPredictionStatus": 1, 
+            "pointCloudData": "" 
+        }
+    ]
+}
