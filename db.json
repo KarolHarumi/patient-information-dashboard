@@ -1,7 +1,7 @@
 {
     "patients": [
         { 
-            "id": 1, 
+            "id": "123qwe", 
             "name": "Patient 1", 
             "age": "32", 
             "gender": "Female", 
@@ -10,9 +10,36 @@
             "pointCloudData": "" 
         },
         { 
-            "id": 2, 
+            "id": "456rty", 
             "name": "Patient 2", 
             "age": "56", 
+            "gender": "Male", 
+            "videoUploadStatus": 1, 
+            "scoliosisPredictionStatus": 1, 
+            "pointCloudData": "" 
+        },
+        { 
+            "id": "789uio", 
+            "name": "Patient 3", 
+            "age": "48", 
+            "gender": "Male", 
+            "videoUploadStatus": 1, 
+            "scoliosisPredictionStatus": 1, 
+            "pointCloudData": "" 
+        },
+        { 
+            "id": "123asd", 
+            "name": "Patient 4", 
+            "age": "23", 
+            "gender": "Female", 
+            "videoUploadStatus": 1, 
+            "scoliosisPredictionStatus": 1, 
+            "pointCloudData": "" 
+        },
+        { 
+            "id": "456rty", 
+            "name": "Patient 5", 
+            "age": "65", 
             "gender": "Male", 
             "videoUploadStatus": 1, 
             "scoliosisPredictionStatus": 1, 
